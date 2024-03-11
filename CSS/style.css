@@ -1,0 +1,131 @@
+/* .comforter-brush-regular { font-family: "Comforter Brush", курсив; вес шрифта: 400; стиль шрифта: нормальный; } */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@619&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@619&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* HEADER START */
+}
+.container {
+  width: 100%;
+  height: 1050%;
+}
+.logo {
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 25);
+  font-family: Comfortaa;
+  font-size: 36px;
+  font-weight: 700;
+  margin-left: 160px;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 65px;
+}
+/* селектор  потомка */
+.nav span {
+  color: black;
+  font-family: comfortaa;
+  font-size: 20px;
+  font-weight: 700;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 376px;
+  align-items: center;
+}
+#nav_btv_login {
+  width: 135px;
+  height: 36px;
+  color: #bb6df3;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 18px;
+  border: none;
+  position: relative;
+  top: 7px;
+}
+/* HEADER FINISH */
+/* SELECTION-1 START */
+.selection-1 {
+  display: flex;
+  padding: 260px;
+}
+.selection-1left h1 {
+  font-size: 72px;
+  font-family: roboto;
+  font-weight: 900;
+  color: #3b668d;
+  text-transform: uppercase;
+}
+.selection-1left span {
+  color: #3b668d;
+  font-family: Monsterrat;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 22px;
+}
+.selection-1left hr {
+  width: 506px;
+  height: 2px;
+  background-color: #3b668d;
+  border: none;
+}
+.selection-1left h3 {
+  color: #3b668d;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.selection-1left p {
+  color: #2b4964;
+  font-family: Monsterrat;
+  font-size: 18px;
+  font-weight: 400;
+  width: 496px;
+  letter-spacing: 2px;
+  line-height: 156%;
+  margin-top: 20px;
+}
+.selection-1left button {
+  width: 304px;
+  height: 75px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 45px;
+  color: black;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 24px;
+  font-weight: 700;
+  box-shadow: 0px 6px 8px;
+  background: linear-gradient(
+    90deg,
+    rgb(94, 146, 231, 0.628) 0% rgb(240, 162, 252) 100%
+  );
+}
+.selection-1Right img {
+  width: 600px;
+}
+/* SELECTION-1 FINISH */
+/* SELECTION-1 START */
+.selection-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.selection-2_Left {
+  width: 65%;
+  height: 100vh;
+  display: flex;
+}
+
+/* .selection-2 .selection-2_Right .selection-2_Right_blocks; */
+
+.di {
+  background-color: darkblue;
+}
